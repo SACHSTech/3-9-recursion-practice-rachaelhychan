@@ -8,7 +8,7 @@ public class CountUpTimer {
             return;
         }else{
             countUp(n-1);
-            System.out.print(n);
+            System.out.print(n + " ");
         }
 
     }
