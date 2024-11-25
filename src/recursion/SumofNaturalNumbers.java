@@ -1,16 +1,12 @@
 package recursion;
 
 public class SumofNaturalNumbers {
-    static int theSum = 0;
     public static int sum(int n) {
-        if(n < 1){
-            return theSum;
+        if(n == 1){
+            return 1;
         }else{
-            theSum = theSum + n;
-            sum(n - 1);
+            return n + sum(n - 1);
         }
-
-        return theSum;
     }
 
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
 package recursion;
 
 public class EvenNumbers {
-    static int curr = 0;
     public static void printEvens(int start, int end){
         if(start % 2 == 0){
             if(start > end){
