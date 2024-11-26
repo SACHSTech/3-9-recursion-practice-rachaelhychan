@@ -18,6 +18,6 @@ public class CharaterOccurence {
     }
 
     public static void main(String[] args) {
-        System.out.println(countChar("rrrrrjasdrra", 'r'));
+        System.out.println(countChar("hello", 'l'));
     }
 }
